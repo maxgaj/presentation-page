@@ -3,7 +3,7 @@
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<meta charset="utf-8">
-	<title>Hi, I'm Max</title>
+	<title>Hi, I'm Max - Home</title>
 	<link rel="stylesheet" type="text/css" href="assets/css/main.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/home.css">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:600|Raleway&display=swap" rel="stylesheet">
@@ -11,14 +11,16 @@
 </head>
 <body>
 	<header>
-		<img src="assets/img/avatar.jpg" alt="I look like a thinker">
-		<p>Hi, I'm Max</p>
+		<div class="wrapper">
+			<img src="assets/img/avatar.jpg" alt="I look like a thinker">
+			<p>Hi, I'm Max</p>
+		</div>
 	</header>
 	<nav>
 		<ul>
-			<li><a class="active" href="#">Home</a></li>
-			<li><a href="#">Presentation</a></li>
-			<li><a href="#">Article</a></li>
+			<li><a class="active" href="index.html">Home</a></li>
+			<li><a href="introduction.html">Introduction</a></li>
+			<li><a href="article.html">Article</a></li>
 		</ul>
 	</nav>
 	<section class="topics">
@@ -26,8 +28,28 @@
 			<i class="fas fa-book-open"></i>
 			Readings
 		</h1>
-		<p>Presentation</p>
-		<p>Reading</p>
+		<div class="wrapper">
+			<a href="introduction.html">
+				<div class="topic">
+					<div class="round-icon">
+						<i class="fas fa-user-tie"></i>
+					</div>
+					<h2>Introducing me</h2>
+					<p>A few words about me...</p>
+					<p class="call-to-action">Click to read</p>
+				</div>
+			</a>
+			<a href="article.html">
+				<div class="topic">
+					<div class="round-icon">
+						<i class="far fa-newspaper"></i>
+					</div>
+					<h2>Article</h2>
+					<p>An interesting article!</p>
+					<p class="call-to-action">Click to read</p>
+				</div>
+			</a>
+		</div>
 	</section>
 	<section class="classroom">
 		<h1>

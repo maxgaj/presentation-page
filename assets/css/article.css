@@ -1,0 +1,36 @@
+article {
+	padding-top: 32px;
+	padding-bottom: 40px
+}
+
+article h1 {
+	color: #77dd77;
+	font-size: 2rem;
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 0 8px 40px 8px;
+}
+
+article .wrapper{
+	max-width: 800px;
+	margin: auto;
+	padding: 0 16px;
+}
+
+article p {
+	color: #170925;
+	font-family: 'Raleway', sans-serif;
+	font-size: 1.2rem;
+	line-height: 1.8rem;
+	margin-bottom: 18px;
+}
+
+article a {
+	color: #259225;
+	text-decoration: none;
+}
+
+article a:hover {
+	text-decoration: underline;
+}
