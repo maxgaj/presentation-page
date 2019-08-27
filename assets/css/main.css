@@ -6,10 +6,20 @@
 
 nav {
 	background-color: #aa77dd;
+	padding: 8px;
+}
+
+nav ul {
+	max-width: 800px;
+	list-style: none;
+	margin: auto;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	padding: 8px;
+}
+
+nav li {
+	margin: 8px;
 }
 
 nav a {
@@ -18,7 +28,6 @@ nav a {
 	color: #ffffff;
 	text-transform: uppercase;
 	text-decoration: none;
-	margin: 8px;
 }
 
 nav a.active {
@@ -27,4 +36,29 @@ nav a.active {
 
 nav a:hover{
 	color: #77dd77;
+}
+
+@media only screen and (min-width: 601px){
+	nav ul {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+	}
+}
+
+footer {
+	background-color: #210d34 ;
+	padding: 16px 8px;
+	text-align: center;
+}
+
+footer a {
+	color: #3e1963;
+	text-decoration: none;
+	font-size: 1.6rem;
+	margin: 0 16px;
+}
+
+footer a:hover {
+	color: #ffffff;
 }
