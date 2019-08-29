@@ -12,18 +12,36 @@ article h1 {
 	margin: 0 8px 40px 8px;
 }
 
+article h2 {
+	color: #77dd77;
+	font-size: 1.4rem;
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	margin-top: 26px;
+	margin-bottom: 18px;
+}
+
 article .wrapper{
 	max-width: 800px;
 	margin: auto;
 	padding: 0 16px;
 }
 
-article p {
+article p, article blockquote {
 	color: #170925;
 	font-family: 'Raleway', sans-serif;
 	font-size: 1.2rem;
 	line-height: 1.8rem;
 	margin-bottom: 18px;
+}
+
+article blockquote {
+	margin-left: 8px;
+	font-style: italic;
+}
+
+article .chapo{
+	font-weight: bold;
 }
 
 article a {
@@ -34,3 +52,57 @@ article a {
 article a:hover {
 	text-decoration: underline;
 }
+
+article img {
+	width: 100%;
+	border-radius: 15px;
+}
+
+article figcaption {
+	font-size: 0.6rem;
+	text-align: right;
+	margin-bottom: 18px;
+}
+
+aside {
+	background-color: #77dd77;
+	padding-top: 56px;
+	padding-bottom: 40px;
+}
+
+aside h1 {
+	color: #ffffff;
+	font-size: 2rem;
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 0 8px 56px 8px;
+}
+
+aside .wrapper {
+	max-width: 800px;
+	margin: auto;
+	padding: 0 16px;
+}
+
+aside p {
+	color: #ffffff;
+	font-family: 'Raleway', sans-serif;
+	font-size: 1.2rem;
+	line-height: 1.8rem;
+	margin-bottom: 18px;
+}
+
+aside p i {
+	margin-right: 8px;
+}
+
+aside a {
+	color: #a092e3;
+	text-decoration: none;
+}
+
+aside a:hover {
+	text-decoration: underline;
+}
+
